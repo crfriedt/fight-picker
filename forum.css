@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to right,#1d1e22,#393f4d)  
+      }
+
+      ul {
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        padding:20px;
+        font-size: 20px;
+        list-style-type: none;
+        margin-bottom: 100px;
+        background-color: #1d1e22;
+      } 
+
+      li{
+        display:inline-block;
+        padding:0px 20px;
+      }
+
+      li a{
+        color:#d4d4dc;
+      }
+  
+      li a:hover{
+        color:#feda6a;
+      }
+
+      .forum{
+          font-size: 70px;
+          display: flex;
+          justify-content: space-around;
+          color:#feda6a;
+      }
+
+      .shadow-box{
+
+        background-color: #393f4d;
+         display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: stretch;
+          align-content: stretch;
+          border: 1px solid #feda6a;
+          padding: 400px;
+          margin-left: 40px;
+          margin-right: 40px;
+
+      }

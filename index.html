@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <script src="app.js">
+        </script>
+
+    <title>Fight Decsion App</title>
+</head>
+<body>
+  <div>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="leaderboards.html">Leaderboards</a></li>
+          <li><a href="forum.html">Forum</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+  </div>
+  <div class="tallys">
+    <input id="tally-1" value ="0" readonly></input>
+    <input id="tally-2" value ="0" readonly></input>
+    
+  </div>
+  <div class="fighters">
+  <div class="fighter-1">
+    <img src="https://media.gettyimages.com/photos/featherweight-champion-conor-mcgregor-poses-for-a-portrait-during-a-picture-id864749612?s=2048x2048" height=500px width=auto>
+  </div>
+    <div class="vs-logo"><img src="https://huntpng.com/images250/vs-png-10.png" height=200px></div>
+    <div class="fighter-2"> <img src="https://media.gettyimages.com/photos/donald-cerrone-poses-for-a-portrait-during-a-ufc-photo-session-on-7-picture-id1060051052?s=612x612" height=500px width=auto>
+    </div>
+  </div>
+  <div class="button-area">
+    <button id="fighter-1-button" onclick="increaseTally()" style="width: 150px; height: 80px;" >Conor McGregor</button>
+    <p id='who-will-win'>Who will win ?</p>
+    <button id="fighter-2-button" onclick="increaseTallyTwo()" style="width: 150px; height: 80px;">Donald Cerrone</button>
+  </div>
+  <div class ="vegas-odds">
+    <p>LAS VEGAS ODDS</p>
+  </div>
+  <div class="bottom-space"></div>
+</body>
+</html>

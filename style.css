@@ -1,0 +1,166 @@
+body{
+  background: linear-gradient(to right,#1d1e22,#393f4d)  
+    }
+    
+    ul {
+      display:flex;
+      justify-content:flex-start;
+      align-items:center;
+      padding:20px;
+      font-size: 20px;
+      list-style-type: none;
+      margin-bottom: 100px;
+      background-color: #1d1e22;
+    } 
+
+    li{
+      display:inline-block;
+      padding:0px 20px;
+    }
+
+    li a{
+      color:#d4d4dc;
+    }
+
+    li a:hover{
+      color:#feda6a;
+    }
+    
+    .fighter-1{
+      position:relative;
+      left:150px;
+      
+      
+    }
+    
+    .fighter-2{
+       position:relative;
+      right:150px;
+      
+    }
+    .fighters{
+      display:flex;
+      justify-content:space-around;
+    }
+    
+    .vs-logo{
+      margin-top:100px;
+      
+    }
+    
+    .button-area{
+      display:flex;
+      justify-content: space-around;
+    }
+    
+    #fighter-1-button{
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #d4d4dc;
+      background-color:#393f4d ;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #d4d4dc;
+      position: relative;
+      left: 210px;
+      margin-top: 50px;
+      
+    }
+
+    #fighter-1-button:hover{
+      background-color: #feda6a;
+      color:#393f4d ;
+    }
+
+    #fighter-1-button:active{
+      background-color: #feda6a;
+      box-shadow: 0 5px #d4d4dc;
+      transform: translateY(4px);
+    }
+
+    #fighter-2-button{
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #d4d4dc;
+      background-color:#393f4d ;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #d4d4dc;
+      position: relative;
+      right: 210px;
+      margin-top: 50px;
+      
+    }
+
+    #fighter-2-button:hover{
+      background-color: #feda6a;
+      color:#393f4d ;
+    }
+
+    #fighter-2-button:active{
+      background-color: #feda6a;
+      box-shadow: 0 5px #d4d4dc;
+      transform: translateY(4px);
+    }
+    
+    
+    
+    .bottom-space{
+      margin-top:120px;
+    
+     
+    }
+    
+    .tallys{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+    }
+    
+    #tally-1{
+      position: relative;
+      left:15px;
+      font-size: 100px;
+      color:#feda6a;
+      background-color: #393f4d;
+      width: 150px;
+      text-align: center;
+    }
+    
+    #tally-2{
+      position: relative;
+      right:15px;
+      font-size: 100px;
+      position: relative;
+      color:#feda6a;
+      background-color: #393f4d
+
+      ;;
+      width: 150px;
+      text-align: center;
+      
+    }
+
+    #who-will-win{
+      font-size:70px;
+      font-family: 'Lobster', cursive;
+      color:#d4d4dc;
+    }
+
+    .vegas-odds{
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      color:#feda6a;
+    }
