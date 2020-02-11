@@ -188,11 +188,11 @@ body{
     50% { color: #393f4d; }
     100% { color: #feda6a; }
 }
-    }
+.vegas-odds{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color:#feda6a;
+}
 
-    .vegas-odds{
-      font-size: 40px;
-      display: flex;
-      justify-content: center;
-      color:#feda6a;
-    }
+    
